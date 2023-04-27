@@ -1,0 +1,28 @@
+list:
+- command:
+    action: ahk
+    exe_path: ahk/open dispatcher.exe
+    exe_args:
+  voice:
+    sounds:
+    - ok1
+    - ok2
+    - ok3
+  phrases:
+  - открой дз
+  - открой диспетчер
+  - запусти дз
+
+- command:
+    action: ahk
+    exe_path: ahk/close dispatcher.exe
+    exe_args:
+  voice:
+    sounds:
+    - ok1
+    - ok2
+    - ok3
+  phrases:
+  - закрой дз
+  - закрой диспетчер
+  - сверни дз
